@@ -1,0 +1,95 @@
+//-----------------------TEST VENDI
+GET /vendi?nomeOggetto=lampadaIkea&prezzo=20&nomeUtente=pino HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
+
+GET /vendi?prezzo=20&nomeOggetto=copriletto&nomeUtente=Aldo HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
+
+GET /vendi?nomeOggetto=sveglia&prezzo=10&nomeUtente=evaristo HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
+
+GET /vendi?nomeOggetto=s2veglia&prezzo=pippo&nomeUtente=evaristo HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
+
+GET /vendi?NomeOggetto=kea&prezzo=20&nomeUtente=evaristo HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
+
+GET /vendi?nomeOggetto=la&prezzo=20&nomeUtente=fffff HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
+
+GET /vendi?nomeOggetto=mouse&prezzo=20&nomeUtente=luca HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
+//----------------------------TEST VEDI PRODOTTI-----------------
+GET /vediProdotti?nomeUtente=Aldo HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
+
+GET /vediProdotti?nomeUtente=pino HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
+
+GET /vediProdotti?nomeUtente=mario HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
+
+GET /vediProdotti?nomeUtente=fffff HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
+//--------------------------TEST COMPRA-----------------------
+GET /compra?nomeOggetto=pupazzo&nomeUtente=pino HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
+
+GET /compra?nomeOggetto=sveglia&nomeUtente=Aldo HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
+
+GET /compra?nomeOggetto=sveglia&nomeUtente=luca HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
+
+GET /compra?nomeOggetto=lampadaIkea&nomeUtente=ffff HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
+
+GET /compra?nomeOggetto=copriletto&nomeUtente=ffff HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
+//------------------------------TEST VENDITE EFFETTUATE---------------
+GET /vediVendite?nomeUtente=Aldo HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
+
+GET /vediVendite?nomeUtente=evaristo HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
+
+GET /vediVendite?nomeUtente=fffffffff HTTP/1.0
+user-agent: Mozilla 5.0, Chrome, Safari
+host: localhost:6000
+content-type: text/html
